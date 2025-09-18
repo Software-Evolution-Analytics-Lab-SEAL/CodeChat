@@ -1,0 +1,10 @@
+Language,Severity,Total_Snippets,Percentage,Mesg
+Csharp,Error,"3,079",49.2%,Cs0246
+Csharp,Error,"1,522",24.3%,Cs0103
+Csharp,Error,"1,107",17.7%,Cs0106
+Csharp,Warning,"2,652",42.4%,Enablegeneratedocumentationfile
+Csharp,Warning,600,9.6%,Ca1852
+Csharp,Warning,328,5.2%,Ca1050
+Csharp,Style,623,10.0%,Ide0040
+Csharp,Style,612,9.8%,Ide0055
+Csharp,Style,506,8.1%,Ide0210

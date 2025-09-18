@@ -1,0 +1,9 @@
+Metric,Value
+Total conversations,65869
+javascript conversations,7385
+Single-turn conversations,4353
+Multi-turn conversations,3032
+Code snippets in multi-turn conversations,10641
+Total turns in multi-turn conversations (excluding 1st turn),7609
+Turns with multiple snippets,3372
+Affected conversations,2292

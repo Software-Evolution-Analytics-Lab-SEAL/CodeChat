@@ -1,0 +1,13 @@
+Language,Severity,Total_Snippets,Percentage,Mesg
+Java,Critical,131,1.9%,Performance:avoidfilestream
+Java,Critical,82,1.2%,CodeStyle:fieldnamingconventions
+Java,Critical,74,1.1%,CodeStyle:localvariablenamingconventions
+Java,High,"1,552",22.4%,BestPractices:systemprintln
+Java,High,34,0.5%,BestPractices:avoidreassigningparameters
+Java,High,17,0.2%,BestPractices:guardlogstatement
+Java,Medium,"5,253",75.9%,Documentation:commentrequired
+Java,Medium,"3,291",47.5%,Design:useutilityclass
+Java,Medium,"3,139",45.3%,CodeStyle:localvariablecouldbefinal
+Java,Low,567,8.2%,CodeStyle:shortclassname
+Java,Low,366,5.3%,CodeStyle:unnecessaryimport
+Java,Low,110,1.6%,BestPractices:usevarargs

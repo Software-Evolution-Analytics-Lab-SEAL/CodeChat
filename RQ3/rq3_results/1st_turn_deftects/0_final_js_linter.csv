@@ -1,0 +1,5 @@
+Language,Severity,Total_Snippets,Percentage,Mesg
+Javascript,Error,"7,627",75.3%,No-undef
+Javascript,Error,"1,460",14.4%,ParsingError:
+Javascript,Error,45,0.4%,No-prototype-builtins
+Javascript,Warning,"3,413",33.7%,No-unused-vars

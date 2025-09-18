@@ -1,0 +1,5 @@
+comparison,p_value,significant
+1 vs 2,1.0,False
+2 vs 3,1.0,False
+3 vs 4,1.0,False
+4 vs 5,1.0,False

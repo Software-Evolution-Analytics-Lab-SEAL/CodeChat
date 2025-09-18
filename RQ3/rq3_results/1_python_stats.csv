@@ -1,0 +1,11 @@
+Metric,Value
+Total conversations,65869
+python conversations,22539
+Single-turn conversations,11538
+Multi-turn conversations,11001
+Code snippets in multi-turn conversations,43547
+Total turns in multi-turn conversations (excluding 1st turn),32546
+Turns with multiple snippets,9651
+Affected conversations,6070
+python,8866,31780
+python,8866,31780

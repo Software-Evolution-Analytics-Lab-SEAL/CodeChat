@@ -1,0 +1,14 @@
+Language,Severity,Total_Snippets,Percentage,Mesg
+Python,Error,"10,037",30.8%,E0602:undefined-variable
+Python,Error,"6,767",20.8%,E0401:import-error
+Python,Error,"2,617",8.0%,E0001:syntax-error
+Python,Warning,"3,236",9.9%,W0621:redefined-outer-name
+Python,Warning,"3,079",9.4%,W0611:unused-import
+Python,Warning,"1,214",3.7%,W0612:unused-variable
+Python,Refactor,"1,351",4.2%,R0903:too-few-public-methods
+Python,Refactor,861,2.6%,R1705:no-else-return
+Python,Refactor,451,1.4%,R0917:too-many-positional-arguments
+Python,Convention,"27,233",83.6%,C0304:missing-final-newline
+Python,Convention,"27,174",83.4%,C0103:invalid-name
+Python,Convention,"27,157",83.3%,C0114:missing-module-docstring
+Python,Information,1,0.0%,I1101:c-extension-no-member

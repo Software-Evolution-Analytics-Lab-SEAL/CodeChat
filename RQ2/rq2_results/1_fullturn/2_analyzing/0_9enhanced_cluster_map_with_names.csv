@@ -1,0 +1,64 @@
+original_cluster,original_count,Openai_name,merged_cluster,merged_total_count,final_cluster_id,aftermerged_OpenAIname
+-1,415,Musician Data Management and Visualization,-1,482,-1,Musician Data Management and Visualization
+0,2339,Assembly-Level Operations and Memory Handling,0,2574,2,Assembly-Level Operations and Memory Handling
+1,1991,Machine Learning Model Training and AI Bot Deployment,1,4516,1,Machine Learning Model Training and AI Bot Deployment
+2,1852,Web Design and Development,2,4995,0,Web Design and Development
+3,1226,Web Scraping and Data Management,2,4995,0,Web Design and Development
+4,1209,Network Connection Management and Log Analysis,4,1360,13,Network Connection Management and Log Analysis
+5,1139,Game Development and Control Mechanics,5,2380,4,Game Development and Control Mechanics
+6,1389,Image Processing and Analysis,6,2162,5,Image Processing and Analysis
+7,1286,AI-Augmented Business Tools and Strategy Automation,7,1706,7,AI-Augmented Business Tools and Strategy Automation
+8,1175,React-based Frontend Development and State Management,8,1274,17,React-based Frontend Development and State Management
+9,959,Android User Interface Development,9,1547,9,Android User Interface Development
+10,1127,Code Error Resolution and Debugging,10,1290,15,Code Error Resolution and Debugging
+11,1011,Excel VBA Automation and Data Management,11,1572,8,Excel VBA Automation and Data Management
+12,1138,SQL Schema Design and ORM-Based Persistence,12,2516,3,SQL Schema Design and ORM-Based Persistence
+13,1299,Text Processing with Regex and Stream Editing,13,1463,12,Text Processing with Regex and Stream Editing
+14,1175,Java Framework Integration and Error Handling,14,1305,14,Java Framework Integration and Error Handling
+15,1591,Binary Patching and Memory Handling,15,1756,6,Binary Patching and Memory Handling
+16,1040,Game Development with Pygame,5,2380,4,Game Development and Control Mechanics
+17,1003,Signal Processing and System Analysis,17,1129,19,Signal Processing and System Analysis
+18,1148,Quotation Import and Error Handling,18,1283,16,Quotation Import and Error Handling
+19,761,Data Processing and File Management,19,859,29,Data Processing and File Management
+20,1165,Data Structure and Cache Management,20,1481,11,Data Structure and Cache Management
+21,711,Audio/Video Stream Processing,21,1524,10,Audio/Video Stream Processing
+22,620,Image Viewer Application Development,6,2162,5,Image Processing and Analysis
+23,757,User Interaction Workflow Management,1,4516,1,Machine Learning Model Training and AI Bot Deployment
+24,941,AI Model API Integration,1,4516,1,Machine Learning Model Training and AI Bot Deployment
+25,1096,Python Package Management Issues,25,1242,18,Python Package Management Issues
+26,646,Smart Contract Development and Interaction,26,1089,20,Smart Contract Development and Interaction
+27,845,TCP Client Communication and Packet Management,27,916,25,TCP Client Communication and Packet Management
+28,650,Functional Programming Evaluation and Testing,28,711,31,Functional Programming Evaluation and Testing
+29,835,Street View Interaction and Marker Management,29,997,23,Street View Interaction and Marker Management
+30,516,UI Component Development and Management,2,4995,0,Web Design and Development
+31,801,Item Management in ListView and ComboBox,31,893,26,Item Management in ListView and ComboBox
+32,578,Data Processing and Analysis Techniques,32,667,33,Data Processing and Analysis Techniques
+33,457,Annonce Management and Display Implementation,9,1547,9,Android User Interface Development
+34,632,Database Management and Entity Persistence,12,2516,3,SQL Schema Design and ORM-Based Persistence
+35,429,Data Merging and Analysis Automation,11,1572,8,Excel VBA Automation and Data Management
+36,470,Technical Indicator Development and Analysis,36,544,39,Technical Indicator Development and Analysis
+37,362,Cryptocurrency Trading Automation,26,1089,20,Smart Contract Development and Interaction
+38,788,Data Processing Errors in Libraries,38,889,27,Data Processing Errors in Libraries
+39,257,Audio-Video Data Processing and Analysis,21,1524,10,Audio/Video Stream Processing
+40,532,AVL Tree Balancing and Operations,40,613,36,AVL Tree Balancing and Operations
+41,378,Version Control and Development Automation,41,439,42,Version Control and Development Automation
+42,576,DataFrame Efficiency Optimization,42,696,32,DataFrame Efficiency Optimization
+43,994,Camping Retail Website Development,2,4995,0,Web Design and Development
+44,870,Mathematical Expression Evaluation,44,1056,22,Mathematical Expression Evaluation
+45,889,Player Inventory Management and Interaction,45,949,24,Player Inventory Management and Interaction
+46,526,Trading Algorithm Implementation,46,562,37,Trading Algorithm Implementation
+47,526,Microservices and API Management,47,652,35,Microservices and API Management
+48,355,Graph Shortest Path Calculation,48,413,43,Graph Shortest Path Calculation
+49,317,Containerized Application Development and Security,49,362,45,Containerized Application Development and Security
+50,1006,SVG Graphics Manipulation and Rendering,50,1080,21,SVG Graphics Manipulation and Rendering
+51,707,Data Handling and Processing Tasks,51,769,30,Data Handling and Processing Tasks
+52,466,Video Processing and Codec Management,21,1524,10,Audio/Video Stream Processing
+53,366,Candlestick Chart Integration and Real-Time Visualization,53,394,44,Candlestick Chart Integration and Real-Time Visualization
+54,361,AI-Assisted Coding Task Management,1,4516,1,Machine Learning Model Training and AI Bot Deployment
+55,438,File Management and System Administration,55,498,41,File Management and System Administration
+56,493,Data Frame Manipulation and Processing,56,551,38,Data Frame Manipulation and Processing
+57,523,Database and Query Management,12,2516,3,SQL Schema Design and ORM-Based Persistence
+58,429,Data Encryption and Decryption Techniques,58,504,40,Data Encryption and Decryption Techniques
+59,272,PDF Image Conversion and UI Integration,59,296,46,PDF Image Conversion and UI Integration
+60,699,Truck Loading Optimization,60,887,28,Truck Loading Optimization
+61,534,Coding Errors and Text Processing,61,662,34,Coding Errors and Text Processing

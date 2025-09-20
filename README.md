@@ -11,6 +11,7 @@
 
 
 - **Paper:** [https://arxiv.org/abs/2509.10402](https://arxiv.org/abs/2509.10402)  
+- **Dataset:** [https://huggingface.co/datasets/Suzhen/CodeChat](https://huggingface.co/datasets/Suzhen/CodeChat)
 - **GitHub:** [https://github.com/Software-Evolution-Analytics-Lab-SEAL/CodeChat](https://github.com/Software-Evolution-Analytics-Lab-SEAL/CodeChat)
 
 **CodeChat** is a large-scale dataset comprising 82,845 real-world developer–LLM conversations, containing 368,506 code snippets generated across more than 20 programming languages, derived from the WildChat dataset. The dataset enables analysis of how developers interact with LLMs during real coding workflows.

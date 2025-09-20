@@ -6,7 +6,9 @@
 # CodeChat: Developer–LLM Conversations Dataset
 
 [![arXiv](https://img.shields.io/badge/arXiv-2509.10402-b31b1b.svg)](https://arxiv.org/abs/2509.10402)
+[![HuggingFace](https://img.shields.io/badge/HF-dataset-orange?logo=huggingface)](https://huggingface.co/datasets/Suzhen/CodeChat)
 [![GitHub](https://img.shields.io/badge/GitHub-CodeChat-blue?logo=github)](https://github.com/Software-Evolution-Analytics-Lab-SEAL/CodeChat)
+
 
 - **Paper:** [https://arxiv.org/abs/2509.10402](https://arxiv.org/abs/2509.10402)  
 - **GitHub:** [https://github.com/Software-Evolution-Analytics-Lab-SEAL/CodeChat](https://github.com/Software-Evolution-Analytics-Lab-SEAL/CodeChat)

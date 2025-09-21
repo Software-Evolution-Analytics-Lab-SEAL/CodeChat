@@ -24,6 +24,5 @@ dependencies:
   - wheel=0.44.0=py310h06a4308_0
   - xz=5.4.6=h5eee18b_1
   - zlib=1.2.13=h5eee18b_1
-  # - pip:
-  #     - en-core-web-sm==3.8.0
-prefix: /home/susan/miniconda3/envs/umap_env
+  - pip:
+      - en-core-web-sm==3.8.0

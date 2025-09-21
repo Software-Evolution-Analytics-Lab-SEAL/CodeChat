@@ -30,6 +30,19 @@ from datasets import load_dataset
 ds = load_dataset("Suzhen/CodeChat")
 ```
 
+## How to Run Replication Package
+For RQ1 and RQ3
+```Bash
+conda env create -f llm_dialogue_env.yml
+conda activate llm_dialogue_env
+```
+
+run RQ2
+```Bash
+conda env create -f umap_env.yml
+conda activate umap_env
+```
+
 ## Citation
 
 If you use this data/code, please cite:

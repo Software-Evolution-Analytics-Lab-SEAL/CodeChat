@@ -188,4 +188,3 @@ dependencies:
       - wrapt==1.14.1
       - xxhash==3.5.0
       - yarl==1.17.1
-prefix: /home/susan/miniconda3/envs/llm_dialogue

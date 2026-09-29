@@ -22,9 +22,9 @@ dataset = load_dataset("Suzhen/CodeChat-V2.0")
 
 | Folder | Contents |
 |---|---|
-| `Dataset_statistics/` | Dataset statistics, language distributions, and supporting data (formerly `RQ1/`). |
-| `RQ1/` | Common topics and interaction patterns: BERTopic training, topic plots, prompt-gap analysis, and Scott–Knott grouping (formerly `RQ2/`). |
-| `RQ2/` | Generated-code quality: static-analysis results, changes across turns, and follow-up analysis (formerly `RQ3/`). |
+| `Dataset_statistics/` | Dataset statistics, language distributions, and supporting data. |
+| `RQ1/` | Common topics and interaction patterns: BERTopic training, topic plots, prompt-gap analysis, and Scott–Knott grouping. |
+| `RQ2/` | Generated-code quality: static-analysis results, changes across turns, and follow-up analysis. |
 
 Internal result-folder and output-file names retain their earlier numbering so existing script paths remain unchanged.
 

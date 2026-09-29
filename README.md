@@ -18,26 +18,20 @@ from datasets import load_dataset
 dataset = load_dataset("Suzhen/CodeChat-V2.0")
 ```
 
-## Paper-to-artifact map
+## Repository Structure
 
-The paper has two research questions, organized here as `RQ1_topics` and `RQ2_code_quality`. Some output filenames retain earlier RQ numbering; the mapping below identifies their corresponding results in the final paper.
-
-| Paper result | Package file |
+| Folder | Contents |
 |---|---|
-| **Fig. 3** | `0_data_processing/rq0_results/RQ0_turns.png` |
-| **Fig. 4** | `0_data_processing/rq0_results/RQ0_lan.png` |
-| **Fig. 5(a)** | `RQ1_topics/rq1_results/RQ2_TopicsFullturn_v2.png` |
-| **Fig. 5(b)** | `RQ1_topics/rq1_results/RQ2_TurnsInTopicsFullturn.png` |
-| **Fig. 6** | `RQ1_topics/4_prompt_gaps/results/RQ2_WhyLongTurn.png` |
-| **Table II** | `RQ1_topics/rq1_results/RQ1_PromptGaps.tex` (definitions, adapted from prior work) |
-| **Fig. 7** | `RQ2_code_quality/rq2_results/RQ3_3SingleIssueCompare.png` |
-| **Table III** | `RQ2_code_quality/rq2_results/RQ3_linter_percent_tab.tex` |
-| **Table IV** | `RQ2_code_quality/rq2_results/RQ3_WhyErrorReduce.tex` |
+| `Dataset_statistics/` | Dataset statistics, language distributions, and supporting data (formerly `RQ1/`). |
+| `RQ1/` | Common topics and interaction patterns: BERTopic training, topic plots, prompt-gap analysis, and Scott–Knott grouping (formerly `RQ2/`). |
+| `RQ2/` | Generated-code quality: static-analysis results, changes across turns, and follow-up analysis (formerly `RQ3/`). |
+
+Internal result-folder and output-file names retain their earlier numbering so existing script paths remain unchanged.
 
 ## Requirements
 
 - **Python 3.10+** with `pandas`, `numpy`, `scipy`, `scikit-learn`, `statsmodels`, `matplotlib`, `tiktoken`
 - **BERTopic / UMAP** (RQ1 topic modeling) — see `umap_env.yml`
-- **R** (Scott–Knott turn-per-topic analysis and some plots): `RQ1_topics/2_analyzing/0_4plot_turn_distri_shifted.R`
-- **Linter toolchains (RQ2):** Pylint (Python), ESLint + Node.js (JavaScript), Cppcheck (C++), PMD (Java), Roslyn / .NET SDK (C#). Each linter subfolder ships its config (`.pylintrc`, `package.json`, etc.); run `npm install` / `dotnet restore` before use.
-- **C4 clone detector** for `RQ2_code_quality/2_clone_detection` (see the C4 reference in the paper).
+- **R** (Scott–Knott turn-per-topic analysis and some plots): `RQ1/2_analyzing/3_plot_groups_turn.R`
+- **Linter toolchains (RQ2):** Pylint (Python), ESLint + Node.js (JavaScript), Cppcheck (C++), PMD (Java), Roslyn / .NET SDK (C#). The published analysis results are under `RQ2/rq3_results/`.
+- **C4 clone detector:** used for task-continuity analysis in the paper; see the C4 reference for the tool. The published package includes the resulting analysis data under `RQ2/rq3_results/`.

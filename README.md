@@ -1,9 +1,9 @@
 # Developer-LLM Conversations: An Empirical Study of Interactions and Generated Code Quality
 
+We construct **CodeChat**, a dataset derived from WildChat containing **587,568 real-world developer–LLM conversations** and **1,724,902 LLM-generated code snippets** across **more than 20 programming languages**.
+
 - **Dataset:** [CodeChat V2.0](https://huggingface.co/datasets/Suzhen/CodeChat-V2.0)
 - **Paper:** [arXiv:2509.10402](https://arxiv.org/abs/2509.10402)
-
-We construct **CodeChat**, a dataset derived from WildChat containing **587,568 real-world developer–LLM conversations** and **1,724,902 LLM-generated code snippets** across **more than 20 programming languages**.
 
 ## Research Questions
 

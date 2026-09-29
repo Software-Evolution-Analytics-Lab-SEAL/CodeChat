@@ -26,8 +26,6 @@ dataset = load_dataset("Suzhen/CodeChat-V2.0")
 | `RQ1/` | Common topics and interaction patterns: BERTopic training, topic plots, prompt-gap analysis, and Scott–Knott grouping. |
 | `RQ2/` | Generated-code quality: static-analysis results, changes across turns, and follow-up analysis. |
 
-Internal result-folder and output-file names retain their earlier numbering so existing script paths remain unchanged.
-
 ## Requirements
 
 - **Python 3.10+** with `pandas`, `numpy`, `scipy`, `scikit-learn`, `statsmodels`, `matplotlib`, `tiktoken`
